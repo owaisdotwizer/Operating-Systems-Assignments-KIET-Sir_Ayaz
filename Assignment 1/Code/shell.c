@@ -240,7 +240,7 @@ void readerByExclaimationMarks(char arg[], int arglen)
 l1:; //terminator mean an empty statement
       // without this label will not work
 }
-
+int readBool=0;
 //this methods takes all input and returns a pointer to be executed
 char *takeInput()
 {
@@ -255,7 +255,8 @@ char *takeInput()
       break;
     }
     //if readKey returns 1 the read from history
-    else if(readKey() == 1){
+    else if(readBool){
+      readKey();
       readerByLineNo(globalLine);
     }
     //save all input chars in *cmd
@@ -279,6 +280,7 @@ char *takeInput()
     cmd = cmd1;
     write(0, "CS_202_Shell > ", 15);//after taking the input print shell name again
     write(0, cmd,strlen(cmd1));    // and print history command
+    write(0, "\n",2);
   }
   return cmd;
 }
