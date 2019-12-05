@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <linux/kernel.h>
-#include <sys/syscall.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <fcntl.h>
 
-#define SYS_search_phrase 326
+#include "search.h"
+
+
+
+
 
 int main()
 {
@@ -20,7 +23,7 @@ int main()
 	scanf("%d",&lineNo);
 	printf("Turn case sensitivity on/off 1|0:\n");
 	scanf("%d",&case_sensitivity);
-	long int ret = syscall(SYS_search_phrase, fd, phrase, buffer, lineNo, case_sensitivity);
+	long int ret = search(fd, phrase, buffer, lineNo, case_sensitivity);
 	printf("Sys call returned: %ld\n",ret);
 	printf("%s\n", buffer);
 	return 0;
