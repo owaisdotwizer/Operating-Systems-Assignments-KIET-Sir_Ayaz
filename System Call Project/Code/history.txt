@@ -1,0 +1,16 @@
+total 76
+drwxrwxr-x 8 compro compro 4096 Nov 28 01:28 clion-2019.2.5
+drwxrwxr-x 3 compro compro 4096 Nov 28 01:45 CLionProjects
+drwxr-xr-x 5 compro compro 4096 Nov 29 17:22 Desktop
+drwxr-xr-x 2 compro compro 4096 Nov 24 19:58 Documents
+drwxr-xr-x 3 compro compro 4096 Nov 29 17:24 Downloads
+-rw-r--r-- 1 compro compro 8980 Nov 25 00:38 examples.desktop
+drwxr-xr-x 2 compro compro 4096 Nov 24 19:58 Music
+drwxr-xr-x 2 compro compro 4096 Nov 24 19:58 Pictures
+drwxrwxr-x 3 compro compro 4096 Nov 28 21:01 Postman
+drwxr-xr-x 2 compro compro 4096 Nov 24 19:58 Public
+drwxr-xr-x 3 compro compro 4096 Nov 29 02:38 snap
+drwxr-xr-x 2 compro compro 4096 Nov 24 19:58 Templates
+-rwxrwxr-x 1 compro compro 8664 Nov 26 02:38 userspace
+-rw-rw-r-- 1 compro compro  226 Nov 26 02:37 userspace.c
+drwxr-xr-x 2 compro compro 4096 Nov 24 19:58 Videos
